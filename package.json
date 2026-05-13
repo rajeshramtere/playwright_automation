@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/rajeshramtere/playwright_automation#readme",
   "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.2"
   }
