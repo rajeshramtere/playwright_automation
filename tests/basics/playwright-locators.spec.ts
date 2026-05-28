@@ -40,7 +40,7 @@ test('Built-in Locator Example - getByText', async ({page}) => {
     await expect(passwordText).toBeVisible();
 })
 
-test.only('Built-in Locator Example - getByLabel', async ({page}) => {
+test('Built-in Locator Example - getByLabel', async ({page}) => {
 
     await page.goto('https://demo.nopcommerce.com/register');  
 
