@@ -96,7 +96,7 @@ test('Built-in Locator Example - getByRole', async ({page}) => {
 
 })
 
-test.only('Built-in Locator Example - getByPlaceholder', async ({page}) => {
+test('Built-in Locator Example - getByPlaceholder', async ({page}) => {
 
     // getByPlaceholder() - Locating an input element by its placeholder text
     // When to use: Use this locator when you want to locate an input element based on its placeholder text. It is useful when the input field has a unique placeholder that can be used to identify it.
