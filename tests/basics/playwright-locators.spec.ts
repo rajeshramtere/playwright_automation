@@ -40,14 +40,12 @@ test('Built-in Locator Example - getByText', async ({page}) => {
     await expect(passwordText).toBeVisible();
 })
 
-test('Built-in Locator Example - getByLabel', async ({page}) => {
+test.only('Built-in Locator Example - getByLabel', async ({page}) => {
 
-    await page.goto('https://demo.nopcommerce.com/');  
+    await page.goto('https://demo.nopcommerce.com/register');  
 
     // Locate the form control by label's text
-    // When to use: Ideal for form fields where the label is associated with the input element. It provides a more user-centric way to locate form controls, especially when the form is well-structured with proper labels.
-    
-    await page.getByRole('link', {name: 'Register'}).click();
+    // When to use: Ideal for form fields where the label is associated with the input element. It provides a more user-centric way to locate form controls, especially when the form is well-structured with proper labels.s
     
     await page.getByLabel('First name:').fill('Rajesh');
     await page.getByLabel('Last name:').fill('Ramtere');
